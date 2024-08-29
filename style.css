@@ -432,7 +432,7 @@ text-align: center;
 .page1
 {
 
-    height: 80vh;
+    height: 100%;
     padding-bottom: 70px;
     padding: 10px 20px 10px 20px;
     align-items: center;
@@ -461,7 +461,7 @@ text-align: center;
     height: 200px;
     width: 200px;  
     border-radius: 100%;
-    margin: 240px 50px;
+    margin: 270px 50px;
 } 
 #frontend{
     font-size: 40px;
@@ -491,7 +491,7 @@ text-align: center;
 
 .page2{
     padding: 10px 10px 10px 10px;
-    height: 80vh;
+    height: 100%;
     width: 100%;
     background-color:#FF5C00;
     color: black;
