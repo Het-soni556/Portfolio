@@ -415,7 +415,7 @@ text-align: center;
     align-items: normal;
 } 
 #navtext{
-
+      font-weight: 200;
     font-size: 30px;
     transition: all 0.5s;
 }
