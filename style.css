@@ -642,7 +642,7 @@ height: 26px;
 border-radius: 5px;
 border: 1px solid var (--color-border-1);
 outline: none;
-width: 300px;
+width: 240px;
 padding: 0 8px 0 16px;
 background-color: var (-color-background-input-field);
 font-size: 15px;
@@ -662,7 +662,7 @@ width: 200px;
     height: 40px;
 }
 .btn {
-    width: 200px;
+    width: 180px;
     height: 30px;
     border-radius: 20px;
     font-size:  27px;
