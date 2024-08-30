@@ -18,7 +18,7 @@ tl.from("#cont",{
     delay:0.2,
     stagger:0.1
 })
-tl.from("#",{
+tl.from("#intrest",{
     opacity:0,
     y:-20,
     duration:0.2,
@@ -29,7 +29,7 @@ tl.from("#",{
 var main = document. querySelector (".main" )
 var cursor = document. querySelector (".cursor")
 var haDiv= document.querySelector("#nav")
-var hbDiv= document.querySelector("#content")
+var hbDiv= document.querySelector("#name")
 var hcDiv= document.querySelector("#intrest")
 var hdDiv= document.querySelector("#work")
 var heDiv= document.querySelector(".contact")
@@ -39,7 +39,7 @@ main.addEventListener ("mousemove", function(dets){
 gsap. to (cursor, {
 x: dets.x,
 y: dets.y,
-duration: 1.5,
+duration: 2,
 ease: "back.out"
 })
 })
@@ -138,6 +138,30 @@ heDiv. addEventListener("mouseleave", function (){
 
 
 
+
+
+gsap.registerPlugin(ScrollTrigger);
+
+gsap.to(".page1",{
+    x:700,
+    duration:3,
+    ScrollTrigger:".page2"
+})
+gsap.to(".page2",{
+    x:700,
+    duration:3,
+    ScrollTrigger:".page3"
+})
+gsap.to(".page4",{
+    x:700,
+    duration:3,
+    ScrollTrigger:".page4"
+})
+gsap.to(".page5",{
+    x:700,
+    duration:3,
+    ScrollTrigger:".page5"
+})
 
 
 gsap.registerPlugin(ScrollTrigger);
